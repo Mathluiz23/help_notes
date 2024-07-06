@@ -50,9 +50,11 @@ BDs | Coleções | Documentos
 :---: | :---: | :---:
 Bancos | Tabelas | Linhas
 
+
 ~~~js
 use nomeDoBanco
 db.nomeDaColecao.insertOne({ x: 1 })
+
 ~~~
 
 A função insertOne() cria tanto o banco de dados nomeDoBanco, como a coleção nomeDaColecao, caso eles não existam. Se existirem, apenas mapeia o documento a ser inserido dentro deles e, por fim, executa a operação.
